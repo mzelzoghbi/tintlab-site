@@ -1,0 +1,20 @@
+# Tint Lab
+> Tint Lab ("Tint Lab: Water Sort Puzzle", Arabic "مختبر الألوان: فرز الماء") is a calm water sort / colour sort puzzle game for iPhone (iOS 17+) and Android (8.0+), in English and Arabic, by Mohamed ElZoghbi (ZaPlatform, Egypt). Pour coloured liquid between test tubes until each tube holds one colour. Free with ads; one-time "Remove ads" and "Premium" purchases. No account.
+
+## Pages
+- [Tint Lab (English)](https://tintlab.zaplatform.com/): what a water sort puzzle is, rules, tips, features, price, FAQ, support
+- [مختبر الألوان بالعربية](https://tintlab.zaplatform.com/ar/): الصفحة العربية
+- [Privacy policy](https://tintlab.zaplatform.com/privacy/)
+- [سياسة الخصوصية](https://tintlab.zaplatform.com/ar/privacy/)
+
+## Facts
+- 200 levels in 10 chapters of 20 (Shallows to Deluge); every level checked by a solver
+- Daily challenge: one puzzle a day, the same for everyone, with a streak
+- Quick play: taps never wait for the pour animation
+- Three free undos per level, a free hint, an extra empty tube (optional reward ad)
+- Themes for bottles and backgrounds, bought with in-game coins
+- Light "Lab Glass" and dark "Night Glow" looks; colour-blind symbols
+- Plays offline; progress stays on the device; no account
+- Ads: Home banner; an interstitial between some levels only after level 10; reward ads are opt-in; never during a level
+- Remove ads: no banner, no interstitials. Premium: no ads, unlimited undo, every theme. No subscription
+- Contact: zaplatform@gmail.com

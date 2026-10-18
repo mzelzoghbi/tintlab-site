@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# AI search and answer engines: keep allowed (citations in ChatGPT, Claude, Perplexity, Copilot, Apple)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Bingbot
+User-agent: Applebot
+Allow: /
+
+# Training crawlers: allowed too (a product page benefits from being known). Change here if that changes.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://tintlab.zaplatform.com/sitemap.xml
