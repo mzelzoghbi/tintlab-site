@@ -17,4 +17,6 @@
 - Plays offline; progress stays on the device; no account
 - Ads: Home banner; an interstitial between some levels only after level 10; reward ads are opt-in; never during a level
 - Remove ads: no banner, no interstitials. Premium: no ads, unlimited undo, every theme. No subscription
+- App Store: https://apps.apple.com/app/id6824215958
+- Google Play: https://play.google.com/store/apps/details?id=com.zaplatform.tintlab
 - Contact: zaplatform@gmail.com
