@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy Policy · Tint Lab</title>
-<meta name="description" content="Tint Lab keeps your progress on your phone, with no account. Ads are served by Google AdMob, which may collect device and usage data. This policy explains what, why and your choices.">
+<meta name="description" content="Tint Lab keeps your progress on your phone, with no account. It uses Google AdMob for ads, Firebase for anonymous gameplay analytics and Luciq for crash reports, bug reports and session replay. This policy explains what, why and your choices.">
 <link rel="canonical" href="https://tintlab.zaplatform.com/privacy/">
 <link rel="alternate" hreflang="en" href="https://tintlab.zaplatform.com/privacy/">
 <link rel="alternate" hreflang="ar" href="https://tintlab.zaplatform.com/ar/privacy/">
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="Tint Lab">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Privacy Policy · Tint Lab">
-<meta property="og:description" content="What Tint Lab keeps on your phone, what its ad partner Google AdMob may collect, and your choices.">
+<meta property="og:description" content="What Tint Lab keeps on your phone, what Google AdMob, Firebase and Luciq may collect, and your choices.">
 <meta property="og:url" content="https://tintlab.zaplatform.com/privacy/">
 <meta property="og:image" content="https://tintlab.zaplatform.com/og.png">
 <meta property="og:image:width" content="1200">
@@ -25,7 +25,7 @@
 <meta property="og:image:alt" content="Tint Lab: glass test tubes of sorted colours, one pouring into another">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Privacy Policy · Tint Lab">
-<meta name="twitter:description" content="What Tint Lab keeps on your phone, what its ad partner Google AdMob may collect, and your choices.">
+<meta name="twitter:description" content="What Tint Lab keeps on your phone, what Google AdMob, Firebase and Luciq may collect, and your choices.">
 <meta name="twitter:image" content="https://tintlab.zaplatform.com/og.png">
 <meta name="twitter:image:alt" content="Tint Lab: glass test tubes of sorted colours, one pouring into another">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,17 +49,17 @@
 <main id="main" class="wrap legal">
   <p class="label">Privacy</p>
   <h1>Privacy Policy</h1>
-  <p class="eff">Tint Lab for iPhone and Android · Effective 18 October 2026</p>
+  <p class="eff">Tint Lab for iPhone and Android · Effective 10 November 2026</p>
 
   <div class="summary">
-    <p><b>The short version.</b> Tint Lab has no account and no servers of its own. Your levels, coins and settings stay on your phone. The app shows ads from Google AdMob, and Google may collect some device and usage data to serve and measure those ads. On iPhone, your advertising identifier is shared only if you allow tracking.</p>
+    <p><b>The short version.</b> Tint Lab has no account and no servers of its own. Your saved game (levels, coins and settings) stays on your phone. The app shows ads from Google AdMob, which may collect some device and usage data to serve and measure ads. To fix bugs and make levels better, the app also sends anonymous gameplay statistics to Google Firebase, and crash reports, performance data and screen recordings of app sessions (session replay) to Luciq. None of this includes your name, and nothing is sold. On iPhone, your advertising identifier is shared only if you allow tracking.</p>
   </div>
 
   <h2>Who we are</h2>
   <p>Tint Lab ("Tint Lab: Water Sort Puzzle") is made by Mohamed ElZoghbi, publishing as ZaPlatform ("we", "us"). You can reach us at <a href="mailto:zaplatform@gmail.com">zaplatform@gmail.com</a>.</p>
 
   <h2>What stays on your phone</h2>
-  <p>Tint Lab saves the following only on your device. It is never sent to us, and we have no way to see it.</p>
+  <p>Tint Lab saves your game on your device. We don't keep a copy of your saved game on any server. (The anonymous statistics and diagnostics described under <a href="#analytics">Analytics and diagnostics</a> are separate.)</p>
   <div class="table"><table>
     <tr><th>Data</th><th>What it's for</th></tr>
     <tr><td>Level progress, stars and best move counts</td><td>So you can pick up where you left off and replay levels</td></tr>
@@ -96,8 +96,16 @@
   <h2>Purchases</h2>
   <p>Remove ads and Premium are one-time in-app purchases processed by Apple (App Store) or Google (Google Play Billing). We never see your payment details, your Apple Account or your Google account. The app learns only which purchases you own. See the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-  <h2>Analytics</h2>
-  <p>Tint Lab contains no analytics SDK of its own and sends no notifications. Apart from what the Google Mobile Ads SDK collects as described above, no usage data leaves your device.</p>
+  <h2 id="analytics">Analytics and diagnostics</h2>
+  <p>To understand which levels are too hard, find crashes and improve the game, Tint Lab uses two services. Neither is used to track you across other companies' apps or websites, and we don't sell this data.</p>
+  <p><b>Google Firebase (Analytics and Remote Config).</b> The app sends gameplay events such as level started or finished, number of moves, time taken, use of undo or the extra bottle, ads offered or watched, and purchases started or completed, together with a random app-instance ID, device model, OS version, app version, language and approximate country. Firebase Analytics on iPhone does not use your advertising identifier. Remote Config lets us switch app features on or off without an update. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
+  <p><b>Luciq (crash reporting, performance and bug reporting).</b> Luciq receives:</p>
+  <ul>
+    <li><b>Crash and performance data,</b> such as crash logs, app hangs, launch and screen loading times, device model, OS version and free memory.</li>
+    <li><b>Session replay:</b> low-frame-rate screen recordings of what happens inside Tint Lab during a session (the game board, taps and screens), with a log of the steps taken. Session replay only records Tint Lab's own screens, never other apps, and text fields are hidden.</li>
+    <li><b>Bug reports and feedback you choose to send,</b> by shaking your phone or taking a screenshot: your message, a screenshot, any photos, videos or voice notes you attach, and an email address if you enter one so we can reply.</li>
+  </ul>
+  <p>Luciq processes this data for us as a service provider and keeps it for a limited time. See the <a href="https://www.luciq.ai/privacy-policy">Luciq Privacy Policy</a>. Tint Lab sends no notifications.</p>
 
   <h2>Children</h2>
   <p>Tint Lab is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through the app, contact us and we will help.</p>
@@ -110,6 +118,7 @@
     <li>Stop ads with the one-time Remove ads or Premium purchase.</li>
     <li>Manage how Google personalises ads at <a href="https://myadcenter.google.com/">My Ad Center</a>.</li>
     <li>Delete everything Tint Lab stores by deleting the app.</li>
+    <li>Ask us to delete analytics, diagnostics or bug reports linked to your device or email: write to <a href="mailto:zaplatform@gmail.com">zaplatform@gmail.com</a>.</li>
   </ul>
 
   <h2>Changes to this policy</h2>
